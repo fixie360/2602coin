@@ -1,7 +1,7 @@
 Flask 0.12.2
 requests 2.18.4
 
-This is a Docker implementation of a simple crypto coin.
+This is a Docker implementation of a simple crypto coin. Using python and flask.
 
 To start docker environment:
 
