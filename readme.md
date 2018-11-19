@@ -12,13 +12,13 @@ To start docker environment:
 		4. $ docker build -t 2602coin_client .
 
 	Run the containers:
-		1. $ docker run -d -p 80:2602 --name 2602coin_node1 2602coin_base
+		1. $ docker run -d -p 2602:2602 --name 2602coin_node1 2602coin_base
 		2. $ docker run -d -p 8080:8080 --name 2602coin_client1 2602coin_client
 
 	For multiple nodes increment the public port and container name, for example:
-		1. $ docker run -d -p 81:2602 --name 2602coin_node2 2602coin_base
+		1. $ docker run -d -p 2603:2602 --name 2602coin_node2 2602coin_base
 
 	For multiple clients increment the public port and container name, for example:
-		1. $ docker run -d -p 8080:8080 --name 2602coin_client1 2602coin_client
+		1. $ docker run -d -p 8081:8080 --name 2602coin_client1 2602coin_client
 
 To access the flask apps, enter your docker host machine's IP address followed by the public port of the app you're targeting (e.g. 192.168.99.100:80)
