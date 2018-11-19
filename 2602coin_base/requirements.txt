@@ -1,0 +1,9 @@
+pycryptodome
+#Crypto.Random
+#Crypto.Hash
+#Crypto.PublicKey
+#Crypto.Signature
+#urllib.parse
+requests
+flask
+flask_cors
