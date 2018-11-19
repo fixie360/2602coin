@@ -5,5 +5,4 @@ WORKDIR /2602coin_base
 RUN apk add libc-dev gcc
 RUN pip3 install -r requirements.txt
 EXPOSE 2602
-EXPOSE 8080
 CMD ["python", "2602coin_base.py"]
